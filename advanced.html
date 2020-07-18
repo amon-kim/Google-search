@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="advance.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+        <div class="google-header">
+            <div class="gmail-img">
+                <img src="kim.png" title="Google Account:demo@example.com">
+            </div>
+            <div class="header-icons">
+                <i class="fa fa-th" title="Google Apps"></i>
+                <a href="index.html">Search</a>
+            </div>
+            <div>
+                <img  class="logo" src="google.png">
+            </div>
+        </div>
+        <hr>
+        <div class="advanced">
+            <h4>Advanced Search</h4>
+        </div>
+        <hr>
+        <div class="Search-box">
+            
+                <form action="https://www.google.com/search" method="GET">
+                    <div class="word"><p>Find pages with...</p></div>
+                        <label for="all-words">all these words:</label>
+                        <input id="all-words" type="text" name="as_q"> <br>
+                        <label for="exact-word">this exact word or phrase:</label>
+                        <input id="exact-word" type="text" name="as_epq"> <br> 
+                        <label for="any">any of these words:</label>
+                        <input id="any" type="text" name="as_oq"> <br>
+                        <label for="none">none of these words</label>
+                        <input id="none" type="text" name="as_eq"> <br>
+                        <label for="numbers">numbers ranging from:</label>
+                        <input id="numbers" type="text" name="as_nlo">
+                        <label>to</label>
+                        <input type="text" name="as_nhi">
+                <hr>
+                    <div class="word"><p>Then narrow your results by...</p></div>
+                        <label for="lang">language:</label>
+                        <select id="lang" name="lr">
+                            <option>any language</option>
+                            <option>Afrikaans</option>
+                            <option>Arabic</option>
+                            <option>Armenian</option>
+                            <option>Belarusian</option>
+                            <option>Bulgarian</option>
+                            <option>Catalan</option>
+                            <option>Chinese(Simplified)</option>
+                            <option>Chinese(Traditional)</option>
+                            <option>Croatian</option>
+                            <option>Czech</option>
+                            <option>Danish</option>
+                            <option>Dutch</option>
+                            <option>English</option>
+                            <option>Esperanto</option>
+                            <option>Estonian</option>
+                            <option>Filipino</option>
+                            <option>Finnish</option>
+                            <option>French</option>
+                            <option>German</option>
+                            <option>Greek</option>
+                            <option>Hebrew</option>
+                            <option>Hindi</option>
+                            <option>Hungarian</option>
+                            <option>Icelandic</option>
+                            <option>Indonesian</option>
+                            <option>Italian</option>
+                            <option>Japanese</option>
+                            <option>Korean</option>
+                            <option>Latvian</option>
+                            <option>Norwegian</option>
+                            <option>Persian</option>
+                            <option>Polish</option>
+                            <option>Portuguese</option>
+                            <option>Romanian</option>
+                            <option>Russian</option>
+                            <option>Serbian</option>
+                            <option>Sloavak</option>
+                            <option>Slovenian</option>
+                            <option>Spanish</option>
+                            <option>Swahili</option>
+                            <option>Swedish</option>
+                            <option>Thai</option>
+                            <option>Turkish</option>
+                            <option>Ukrainian</option>
+                            <option>Vietnamese</option>
+                        </select>
+                        <br>
+                        <label for="country">region:</label>
+                        <select id="country> name="cr">
+                            <option></option>
+                        </select>
+                    <br>
+                    <label for="update">last update:</label>
+                    <select id="update" name="as_qdr">
+                        <option value="anytime">anytime</option>
+                        <option value="past 24 hours">past 24 hours</option>
+                        <option value="past week">past week</option>
+                        <option value="past month">past month</option>
+                        <option value="past year">past year</option>
+                    </select>
+                    <br>
+                    <label for="site">site or domain:</label>
+                    <input id="site" type="text" name="as_sitesearch">
+                    <br>
+                    <label for="terms">terms appearing:</label>
+                    <select id="terms" name="as_occt">
+                        <option>anywhere in the page</option>
+                        <option>in the title of the page</option>
+                        <option>in the text of the page</option>
+                        <option>in the URL of the page</option>
+                        <option>in links to the page</option>
+                    </select>
+                    <br>
+                    <label for="safesearch">SafeSearch:</label>
+                    <select id="safesearch" name="safe">
+                        <option>Show most relevant results</option>
+                        <option>Filter explicit results</option>
+                    </select>
+                    <br>
+                    <label for="file">file type:</label>
+                    <select id="file" name="as_filetype">
+                        <option>any format</option>
+                        <option>Adobe Acrobat PDF (.pdf)</option>
+                        <option>Adobe Postscript (.ps)</option>
+                        <option>Autodesk DWf (.dwf)</option>
+                        <option>Google Earth KML (.klm)</option>
+                        <option>Google Earth KMZ (.kmz)</option>
+                        <option>Microsoft Excel (.xls)</option>
+                        <option>Microsoft Power Point (.ppt)</option>
+                        <option>Microsoft Word (.doc)</option>
+                        <option>Rich Text Format (.rtf)</option>
+                        <option>Shockwave Flash (.swf)</option>
+                    </select>
+                    <br>
+                    <label for="rights">usage rights:</label>
+                    <select id="rights" name="tbs">
+                        <option>not filtered by licence</option>
+                        <option>free to use or share</option>
+                        <option>free to use or share, even commercially</option>
+                        <option>free to use share or modify</option>
+                        <option>free to use, share or modify, even commercially</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="Advanced Search">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

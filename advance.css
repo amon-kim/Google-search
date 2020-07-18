@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.gmail-img{
+    border-radius: 50px;
+    width: 40px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.header-icons {
+    float: right;
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.header-icons .fa-th {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #808080;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.header-icons .fa-th:hover {
+    color: #000000;
+}
+.header-icons a {
+    float: right;
+    margin-right: 15px;
+    color: #333333;
+    text-decoration: none;
+    font-size: 15px;
+}
+.header-icons a:hover {
+    color: #808080;
+}
+.logo {
+    margin-top: 10px ;
+    margin-left: 10px;
+    width: 100px;
+}
+.advanced {
+    color: rgb(240, 71, 71);
+    margin-left: 70px;
+}
+label {
+    width: 200px;
+    display: inline-block;  
+}
+.Search-box {
+    margin-left: 70px;
+    
+}
+
